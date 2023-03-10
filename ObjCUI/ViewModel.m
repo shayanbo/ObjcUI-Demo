@@ -22,8 +22,8 @@
     if (self) {
         /// load mock data
         self.name = @"Rock";
-        self.avatarUrl = @"";
-        self.time = @"2023-03-09 12:00:00";
+        self.avatarUrl = @"https://miro.medium.com/v2/resize:fill:100:100/1*kOyC7Snkp0xpEFJCdIO4Yg.jpeg";
+        self.time = @"Born in: 1992.11.23";
     }
     return self;
 }

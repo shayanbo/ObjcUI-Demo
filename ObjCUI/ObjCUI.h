@@ -17,4 +17,10 @@ UIStackView *VStack(UIStackViewDistribution distribution, NSArray<UIView *> *sub
 
 UIStackView *HStack(UIStackViewDistribution distribution, NSArray<UIView *> *subviews);
 
+UIView *HSpace(CGFloat width);
+
+UIView *VSpace(CGFloat height);
+
+UIView *AnySpace(void);
+
 NS_ASSUME_NONNULL_END

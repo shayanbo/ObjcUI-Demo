@@ -22,3 +22,19 @@ UIStackView *HStack(UIStackViewDistribution distribution, NSArray<UIView *> *sub
      v.distribution = distribution;
      return v;
 }
+
+UIView *HSpace(CGFloat width) {
+    UIView *v = [[UIView alloc] init];
+    [v.widthAnchor constraintEqualToConstant:width].active = YES;
+    return v;
+}
+
+UIView *VSpace(CGFloat height) {
+    UIView *v = [[UIView alloc] init];
+    [v.heightAnchor constraintEqualToConstant:height].active = YES;
+    return v;
+}
+
+UIView *AnySpace() {
+    return [[UIView alloc] init];
+}

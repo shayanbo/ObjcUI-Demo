@@ -1,0 +1,34 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveCocoa (2.0):
+    - ReactiveCocoa/Core (= 2.0)
+    - ReactiveCocoa/no-arc (= 2.0)
+    - ReactiveCocoa/RACExtensions (= 2.0)
+  - ReactiveCocoa/Core (2.0):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.0)
+  - ReactiveCocoa/RACExtensions (2.0):
+    - ReactiveCocoa/Core
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveCocoa (~> 2.0.0)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - ReactiveCocoa
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: c5347d7b1c348d22a85800e14e89da84c5254cfb
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+
+PODFILE CHECKSUM: 2ba464d620ec900e241ab851664fefbb0439d2f1
+
+COCOAPODS: 1.12.0
